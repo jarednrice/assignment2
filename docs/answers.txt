@@ -1,0 +1,51 @@
+3E.
+a)
+$ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 508 bytes | 508.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/jarednrice/assignment2.git
+   3c65a26..0b5d817  master -> master
+
+b)
+There have been 10 commits so far. This can be seen by using the git log command.
+
+c)
+The .gitignore file was last modified on Wed Sep 25 18:13:30 2019. This information
+was obtain by using the git log command with ".gitignore" as a parameter.
+
+d)
+Branches are used to prevent unstable code from being injected into the project. 
+It also allows you to clean up your work before pushing to the master branch.
+
+e)
+The git log command allows you to see who contributed what and when. The git status
+command shows which files have been staged for commitment at the current point in time.
+
+f)
+git log --follow -- Vehicle.h
+
+g)
+git log --grep=file
+
+h)
+Inheritance is the property that allows classes to take on attributes from "parent"
+classes. Polymorphism is the property that allows objects with differing data types
+to use the same interface. An example would be different shapes using the same draw
+function. Encapsulation is what restricts access to some of an objects data. Functions
+can be created to handle this data from the outside. Functions that utilize this concept
+could be get or set functions.
+
+i)
+In the Integration Manager Workflow, each developer has a private and public repository.
+The Dictator and Lieutenants Workflow features shared "lieutenant" repositories that 
+multiple developers push to.
+
+j)
+A team of 100 developers could benefit from following the Dictator and Lieutenants
+workflow as it would allow the project leader to more effectively delegate work. The 
+lieutenant repositories could also be associated with teams.
