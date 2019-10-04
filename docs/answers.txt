@@ -49,3 +49,15 @@ j)
 A team of 100 developers could benefit from following the Dictator and Lieutenants
 workflow as it would allow the project leader to more effectively delegate work. The 
 lieutenant repositories could also be associated with teams.
+
+5.
+The driving simulator prototype makes use of encapsulation. This can be seen in the Car class.
+The engine size ("myEngineSize") is private data that is manipulated and retrieved by public 
+functions (setEngineSize() and getEngineSize()). These functions are called on the creation
+of a Car object and while printing the car's info respectively.
+
+Runtime Polymorphism can be seen with the toString() and mileageEstimate() functions. Both of these
+functions are declared as virtual functions in the parent classes (Vehicle and PoweredVehicle) and 
+each child class has a unique definition of these functions. When the functions are called in main, 
+a pointer is used to call the appropriate implementations found in the child classes. The programmer
+does not need to know the exact implementation to call ahead of time. 
