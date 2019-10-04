@@ -1,6 +1,6 @@
 SOURCES=$(shell find . -name "*.cpp")
 OBJECTS=$(SOURCES:%.cpp=%.o)
-TARGET=foo
+TARGET=sim
 
 .PHONY: all
 all: $(TARGET)
@@ -11,3 +11,5 @@ $(TARGET): $(OBJECTS)
 .PHONY: clean
 clean:
 	rm -f $(TARGET) $(OBJECTS)
+
+#makefile found on https://stackoverflow.com/questions/3576698/simple-makefile-generation-utility 
