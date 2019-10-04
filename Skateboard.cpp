@@ -1,3 +1,4 @@
+//Created by Jared Rice on 10/4/19
 #include "Skateboard.h"
 #include <random>
 

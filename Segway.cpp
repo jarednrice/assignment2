@@ -1,3 +1,4 @@
+//Created by Jared Rice 10/4/19
 #include "Segway.h"
 #include <math.h>
 

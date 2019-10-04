@@ -1,3 +1,4 @@
+//Created by Jared Rice on 10/4/19
 #ifndef DRIVINGSIMULATOR_SEGWAY_H
 #define DRIVINGSIMULATOR_SEGWAY_H
 

@@ -1,3 +1,4 @@
+//Created by Jared Rice on 10/4/19
 #include "Jet.h"
 
 Jet::Jet() {
@@ -42,7 +43,7 @@ void Jet::setEngineCount(int numberOfEngines){
 }
 
 double Jet::mileageEstimate(double time) {
-	double mileage = (rand() % 100 + 40) * time;
+	double mileage = (rand() % 61 + 40) * time;
 	int engineCount = getEngineCount();
 	if (fuelType == "Rocket" && engineCount > 2) {
 		mileage += mileage * (0.055 * engineCount);

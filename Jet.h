@@ -1,3 +1,4 @@
+//Created by Jared Rice on 10/4/19
 #ifndef DRIVINGSIMULATOR_JET_H
 #define DRIVINGSIMULATOR_JET_H
 
@@ -6,17 +7,19 @@
 class Jet : public PoweredVehicle {
 
 private:
-	string myEngineSize;
+	//string myEngineSize;
 	int myNumberOfEngines;
 
 public:
 	Jet();
 
 	explicit Jet(string brand, string model, string fuelType, 
-			string engineSize, int numberOfEngines);
+			/*string engineSize,*/ int numberOfEngines);
 	virtual ~Jet();
 	string getEngineSize();
-	void setEngineSize(string engineSize);
+	int getEngineCount();
+	//void setEngineSize(string engineSize);
+	void setEngineCount(int numberOfEngines);
 	virtual double mileageEstimate(double time);
 	virtual string toString();
 };
