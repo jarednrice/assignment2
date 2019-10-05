@@ -1,3 +1,5 @@
+CXX=g++
+CXXFLAGS=-g -Wall -MMD -std=c++11
 SOURCES=$(shell find . -name "*.cpp")
 OBJECTS=$(SOURCES:%.cpp=%.o)
 TARGET=sim
